@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.numeri {
+    padding: 2rem;
+    aspect-ratio: 1 / 1;
+    border: 1px solid red;
+    color: white;
+    background-color: green;
+}
+
+.risultato {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    aspect-ratio: 2 / 1;
+    border: 1px solid red;
+    color: white;
+    background-color: green;
+}
